@@ -11,7 +11,7 @@ mkdir -p ~/gps_proxy
 cd ~/gps_proxy
 
 # 2. Python-Proxy Script erstellen (Threaded Version)
-cat <<EOF > gps_proxy.py
+cat <<EOF > gps.py
 import socket
 import json
 import threading
