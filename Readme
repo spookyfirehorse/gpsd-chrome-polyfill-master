@@ -1,3 +1,9 @@
+install gpsd and geoclue
+
+
+
+edit 
+
 python3 gps.py
 
 install developer tool unpacked extensions 
