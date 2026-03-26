@@ -11,7 +11,7 @@ mkdir -p ~/gps_proxy
 cd ~/gps_proxy
 
 # 2. Python-Proxy Script erstellen (Threaded Version)
-cat <<EOF > gps_proxy.py
+cat <<EOF > gps.py
 import socket
 import json
 import threading
@@ -69,7 +69,7 @@ Description=GPSD Chrome Proxy Service
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/python3 /home/$USER/gps_proxy/gps_proxy.py
+ExecStart=/usr/bin/python3 /home/$USER/gps_proxy/gps.py
 WorkingDirectory=/home/$USER/gps_proxy
 StandardOutput=inherit
 StandardError=inherit
