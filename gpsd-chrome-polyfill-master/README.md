@@ -1,3 +1,0 @@
-# gpsd-chrome is  maintained
-
-
