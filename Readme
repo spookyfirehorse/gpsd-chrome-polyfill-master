@@ -1,11 +1,15 @@
 install gpsd and geoclue
 
+gpsd must running on 127.0.0.1
+
+this is normal when you plugin a usb device or connect the gpsd or to a gpsd server
 
 
-edit 
+git clone 
 
-python3 gps.py
+cd 
 
-install developer tool unpacked extensions 
+python3 gps-ws.py &
 
-works
+go in chrome to developer tools install the app  and klick on the symbol
+
