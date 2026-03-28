@@ -2,7 +2,7 @@ install gpsd and geoclue
 
 gpsd must running on 127.0.0.1
 
-this is normal when you plugin a usb device or connect the gpsd or to a gpsd server
+this is normal when you plugin a usb device or connect the gpsd  to a gpsd server
 
 
 git clone https://github.com/spookyfirehorse/gpsd-chrome-polyfill-master.git
@@ -11,5 +11,6 @@ cd gpsd-chrome-polyfill-master
 
 python3 gps-ws.py &
 
-go in chrome to developer tools install the app  and klick on the symbol
+go in chrome to developer tools  (  search in the directory the folder crx inside pollyfill ) install it
 
+klick on the symbol in the taskbar 
